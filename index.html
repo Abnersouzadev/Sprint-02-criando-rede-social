@@ -20,49 +20,101 @@
     <div class="container">
         <div class="meu-post">
             <div class="perfil">
-                <img src="" alt="">
-                <h2 class="nome-perfil"></h2>
-                <span class="perfil-descricao"></span>
+                <img src="./src/assets/img/Ellipse 1.png" alt="">
+                <div class="descricao">
+                    <h2 class="nome-perfil">Samuel Leão</h2>
+                    <span class="perfil-descricao">Front end Engineer</span>
+                </div>
+                
             </div>
             <h2>Digite o título do post</h2>
-            <input type="text">
+            <input type="text" class="input-titulo">
             <h2>Digitar descrição do post</h2>
-            <input type="text">
-            <button>Postar</button>
+            <input type="text" class="input-descricao">
+            <div class="div-botao"><button class="botao-postar">Postar</button></div>
         </div>
         <aside>
-            <h2>Sugestões para você seguir</h2>
-            <div class="carlos">
-                <img src="" alt="">
+            <h2 class="titulo-sugestao">Sugestões para você seguir</h2>
+            <div class="perfil-sugestao">
+                <img src="./src/assets/img/Ellipse 1 (1).png" alt="">
                 <div class="nome-descricao">
-                    <h3></h3>
-                    <span class="perfil-descricao"></span>
+                    <div class="descricao">
+                        <h3 class="nome-perfil">Carlos Lima</h3>
+                        <span class="perfil-descricao">UX e UI Designer</span>
+                    </div>
+                    
                 </div>
-                <button>seguir</button>
+                <button class="botao-sugestoes">Seguir</button>
             </div>
-            <div class="Larissa">
-                <img src="" alt="">
+            <div class="perfil-sugestao">
+                <img src="./src/assets/img/Ellipse 1 (2).png" alt="">
                 <div class="nome-descricao">
-                    <h3></h3>
-                    <span class="perfil-descricao"></span>
+                    <h3 class="nome-perfil">Larissa Cristina</h3>
+                    <span class="perfil-descricao"> UI Developer</span>
                 </div>
-                <button>seguir</button>
+                <button class="botao-sugestoes">Seguir</button>
             </div>
-            <div class="filipe">
-                <img src="" alt="">
+            <div class="perfil-sugestao">
+                <img src="./src/assets/img/Ellipse 1 (3).png" alt="">
                 <div class="nome-descricao">
-                    <h3></h3>
-                    <span class="perfil-descricao"></span>
+                    <h3 class="nome-perfil">Filipe Gutierry</h3>
+                    <span class="perfil-descricao">Full stack Developer</span>
                 </div>
-                <button>seguir</button>
+                <button class="botao-sugestoes">Seguir</button>
             </div>
         </aside>
     </div>
     
     
     <main>
-        <h1>posts</h1>
-        <ul class="lista-perfil"></ul>
+        <h1>Posts</h1>
+        <ul class="lista-perfil">
+            <li class="card">
+                <div class="perfil-posts">
+                    <div class="profile">
+                        <img  src="./src/assets/img/user2.svg" alt="">
+                        <div class="nome-descricao-post">
+                            <h3 class="nome-perfil">Samuel Persuhn</h3>
+                            <span class="perfil-descricao">Front end Engineer</span>
+                        </div>                        
+                    </div>
+                    
+                    <h3>Empresa de Tecnologia da Informação abre vagas para programa de estágio</h3>
+                    <p>A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.</p>
+                    <button class="botao-post">Abrir Post</button>
+                </div>
+            </li>
+            <li class="card">
+                <div class="perfil-posts">
+                    <div class="profile">
+                        <img  src="./src/assets/img/user4.svg" alt="">
+                        <div class="nome-descricao-post">
+                            <h3 class="nome-perfil">Carla Maria</h3>
+                            <span class="perfil-descricao">Back end Engineer</span>
+                        </div>                        
+                    </div>
+                    
+                    <h3>Programa de estágio abre vagas em Segurança da Informação com regime remoto</h3>
+                    <p>Em Segurança da Informação, as vagas são destinadas às áreas de Security Operations Center (SOC), Administração de Dispositivos de Segurança (ADS), Resposta a Incidentes (RI), Segurança e Privacidade e Consultoria Técnica. O candidato interessado deverá estar matriculado em um curso superior em Ciência da Computação, Segurança da Informação, Tecnologia da Informação e afins, com previsão de conclusão do curso de fevereiro de 2023 a fevereiro de 2025.</p>
+                    <button class="botao-post">Abrir Post</button>
+                </div>
+            </li>
+            <li class="card">
+                <div class="perfil-posts">
+                    <div class="profile">
+                        <img  src="./src/assets/img/user5.svg" alt="">
+                        <div class="nome-descricao-post">
+                            <h3 class="nome-perfil">Júlia Martins</h3>
+                            <span class="perfil-descricao">Devop's</span>
+                        </div>                        
+                    </div>
+                    
+                    <h3>O que é programação orientada a objetos e programação funcional</h3>
+                    <p>A Programação Funcional é uma orientação focada na programação declarativa. Conhecendo mais a programação funcional a partir de códigos podemos nos deparar de primeira com o conceito mais central da programação funcional, que é o conceito de funções puras, isso significa que o retorno de uma função deve depender apenas dos seus parâmetros de entrada. Com classes podemos editar os valores das propriedades dos objetos criados ou ainda criar métodos para essas propriedades, ainda por cima podemos definir se vão ser públicos (vão para o objeto) ou estáticos (não são instanciados, ou seja, não vão para o objeto), e isso tem seu lado bom e ruim.</p>
+                    <button class="botao-post">Abrir Post</button>
+                </div>
+            </li>
+        </ul>
     </main>
     
     <script src="./src/scripts/index.js"></script>
